@@ -1,4 +1,5 @@
 # sql-data-analytics-project
+
 A comprehensive collection of SQL scripts for data exploration, analytics, and reporting. 
 These scripts cover various analyses such as database exploration, measures and metrics, time-based trends, cumulative analytics, segmentation, and more.
 This repository contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database. 
@@ -18,20 +19,20 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ## 📂 Repository Structure
-
-data-warehouse-project/
+```
+sql-data-analytics-project/
 │
 ├── datasets/                           # datasets used for the project
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-
+│   ├── dim_customers.csv               # Customer Dimension table
+│   ├── dim_products.csv                # Products Dimension table
+│   ├── fact_sales.csv                  # Sales Fact table
 │
 ├── scripts/                            # SQL scripts for Data Analytics and Reporting
 │
+├── Project Roadmap.png                 # .png file for project roadmap
+│
 ├── README.md                           # Project overview and instructions
-
+```
 ## 🌟 About Me
 
 Hi there! I'm **Mahesh Sonawane**. I’m an IT professional and passionate about Data and AI!
